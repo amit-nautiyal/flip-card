@@ -1,6 +1,6 @@
 .card h1 {
    margin: 0;
-   line-height: 200px;
+   margin-top: 80px;
 }
 .card-container {
    prespective: 700;
@@ -18,14 +18,17 @@
 }
 .front, .back {
    position: absolute;
-   background: #5677fc;
    top: 0;
    left: 0;
    width: 200px;
    height: 200px;
    backface-visibility: hidden;
 }
+.front {
+   background: #5677fc;
+}
 .back {
+   background: #000;
    transform: rotateY(180deg);
 }
 .back {
