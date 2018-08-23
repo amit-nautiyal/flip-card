@@ -25,13 +25,10 @@
    backface-visibility: hidden;
 }
 .front {
-   background: #5677fc;
+   background: #5677FC;
 }
 .back {
    background: #000;
-   transform: rotateY(180deg);
-}
-.back {
    transform: rotateY(180deg);
 }
 .card:hover {
